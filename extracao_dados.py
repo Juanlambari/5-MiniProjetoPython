@@ -62,3 +62,14 @@ def dsa_gera_dados_churn(num_clientes = 2000):
 
 # Gera os dados
 df_churn = dsa_gera_dados_churn()
+
+"""
+Distribuição Normal (ou Gaussiana): Representa fenômenos naturais e comportamentos contínuos, como altura, peso ou tempo de resposta.
+É simétrica em torno da média, formando o famoso “formato de sino”.
+
+Distribuição  Binomial:  Modela  situações  com  dois  possíveis  resultados (sucesso  ou fracasso), como o número de clientes que cancelam em um grupo ou o número de acertos em 10 lançamentos de moeda.
+
+Distribuição de Poisson: Usada para contar ocorrências de um evento em um intervalo fixo de tempo ou espaço, como o número de chamadas recebidas em um call center por hora.
+
+Distribuição Exponencial: Relacionada ao tempo entre eventos sucessivos, por exemplo, o tempo até a próxima ligação ou a falha de um equipamento.
+"""
